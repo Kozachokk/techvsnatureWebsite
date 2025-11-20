@@ -1,0 +1,28 @@
+Develop a city or keep nature
+-Develop a city with biomimicry+tooltip
+
+Create a farm or create a park
+-Develop the garden inside a city (or vertical farms, or a park)
+
+Create a park or create a new industrial building
+-create both, have green areas inside this building
+
+{
+    "questions": [
+        [
+            "Develop a city",
+            "Develop a park",
+            "Develop a city with biomimicry"
+        ],
+        [
+            "create a farm",
+            "create a park",
+            "develop the garden inside a city"
+        ],
+        [
+            "create a park",
+            "create a new industrial building",
+            "create both"
+        ]
+    ]
+}

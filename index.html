@@ -1,28 +1,33 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tech vs Nature - Coexistence</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1 id="questionBox" class="top-position">
+      Start the simulation by pressing any button
+    </h1>
+    <button id="third-option" class="hidden"></button>
     <div class="container">
-        <!-- Technology Theme -->
-        <div class="split tech-side">
-            <div class="content">
-                <h2>Technology</h2>
-                <button class="tech-button">Explore Tech</button>
-            </div>
+      <!-- Technology Theme -->
+      <div class="split tech-side">
+        <div class="content">
+          <h2>Technology</h2>
+          <button id="tech-button">Choose Technology</button>
         </div>
-        
-        <!-- Nature Theme -->
-        <div class="split nature-side">
-            <div class="content">
-                <h2>Nature</h2>
-                <button class="nature-button">Explore Nature</button>
-            </div>
+      </div>
+
+      <!-- Nature Theme -->
+      <div class="split nature-side">
+        <div class="content">
+          <h2>Nature</h2>
+          <button id="nature-button">Choose Nature</button>
         </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>

@@ -1,0 +1,19 @@
+{
+    "questions": [
+        [
+            "Develop a city",
+            "Develop a park",
+            "Develop a city with biomimicry"
+        ],
+        [
+            "create a farm",
+            "create a park",
+            "develop the garden inside a city"
+        ],
+        [
+            "create a park",
+            "create a new industrial building",
+            "create both"
+        ]
+    ]
+}
