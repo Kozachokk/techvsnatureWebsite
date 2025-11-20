@@ -9,17 +9,18 @@ html {
   height: 100%;
   font-family: "Arial", sans-serif;
 }
-h1 {
+#questionBox {
   top: 0;
   left: 50%;
-  transform: translate(-50%, 50%);
+  transform: translate(-50%, 25%);
   position: fixed;
   background-color: #dda15e;
-  border-radius: 50px;
+  border-radius: 25px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   padding: 5px 10px;
   color: #fefae0;
   text-align: center;
+  white-space: pre-wrap;
 }
 .container {
   display: flex;
