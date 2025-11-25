@@ -14,6 +14,37 @@
             "create a park",
             "create a new industrial building",
             "create both"
+        ],
+        [
+          "Try again?",
+          "Try again?",
+          "Maybe another way is possible"
         ]
+    ],
+    "changes": [
+      {
+        "people": 1000,
+        "money": 1244,
+        "dev": 65,
+        "nature": 23,
+        "happiness": 12,
+        "health": 78
+      },
+      {
+        "people": 1000,
+        "money": -13535,
+        "dev": 98,
+        "nature": 56,
+        "happiness": -12,
+        "health": 123
+      },
+      {
+        "people": 1000,
+        "money": 65463,
+        "dev": 45,
+        "nature": -23,
+        "happiness": 64,
+        "health": 87
+      }
     ]
 }
